@@ -1,0 +1,49 @@
+# Environment & Secrets
+.env
+.env.local
+.env.production
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs & Data
+*.log
+assistant_audio/
+uploads/
+*.db
+*.sqlite3
+
+# Docker
+*.tar
+
+# Node (if frontend added)
+node_modules/
+.next/
+dist/
