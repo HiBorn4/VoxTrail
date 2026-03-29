@@ -1,6 +1,6 @@
-# 🎙️ VoxTrail — Voice-Powered Corporate Travel AI
+# 🎙️ VoxTrail - Voice-Powered Corporate Travel AI
 
-> **Talk your way through business travel.** Book flights, manage reimbursements, and review trip history — all with natural voice commands, powered by Google Gemini Live + a multi-agent AI backend.
+> **Talk your way through business travel.** Book flights, manage reimbursements, and review trip history - all with natural voice commands, powered by Google Gemini Live + a multi-agent AI backend.
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -10,24 +10,13 @@
 
 ---
 
-### 🎬 Architecture
-
-![Architecture](architecture.png)
-
-
-### 🎬 Full Demo Video
-
-https://github.com/user-attachments/assets/811a98a8-1c3f-47b3-8a5a-615456065dd1
-
----
-
 ## 🧠 What Is VoxTrail?
 
 VoxTrail is a **production-grade, voice-first AI assistant** built for corporate travel management. Instead of clicking through clunky travel portals, employees speak naturally:
 
 > *"Book me a flight from Mumbai to Delhi next Friday, economy, aisle seat"*
 
-The system understands, confirms, and books — entirely via voice. Under the hood, a **multi-agent architecture** powered by Google's Agent Development Kit (ADK) routes requests intelligently across specialized AI agents backed by real enterprise APIs (SAP, Redis, custom reimbursement pipelines).
+The system understands, confirms, and books - entirely via voice. Under the hood, a **multi-agent architecture** powered by Google's Agent Development Kit (ADK) routes requests intelligently across specialized AI agents backed by real enterprise APIs (SAP, Redis, custom reimbursement pipelines).
 
 ---
 
@@ -278,11 +267,11 @@ Manages the full booking lifecycle:
 
 ### What Screenshots to Capture
 
-1. **Voice interface active state** — Show the waveform animation while speaking. Ideal: side by side with the bot's text response appearing simultaneously.
-2. **Booking confirmation screen** — After the AI confirms a flight, capture the full `ChatEnvelope` response rendered in the frontend with flight details, seat class, and cost center.
-3. **Reimbursement flow** — Screenshot the document upload step, then the AI's extracted line-item analysis.
-4. **Trip history panel** — Show the categorized trip list (upcoming / in-progress / past) with trip IDs.
-5. **Architecture diagram** — Use the `architecture.svg` included in this repo.
+1. **Voice interface active state** - Show the waveform animation while speaking. Ideal: side by side with the bot's text response appearing simultaneously.
+2. **Booking confirmation screen** - After the AI confirms a flight, capture the full `ChatEnvelope` response rendered in the frontend with flight details, seat class, and cost center.
+3. **Reimbursement flow** - Screenshot the document upload step, then the AI's extracted line-item analysis.
+4. **Trip history panel** - Show the categorized trip list (upcoming / in-progress / past) with trip IDs.
+5. **Architecture diagram** - Use the `architecture.svg` included in this repo.
 
 ### Screen Recording Tips
 
@@ -293,9 +282,9 @@ Manages the full booking lifecycle:
 | System overview | ~20s | Pan through the architecture diagram |
 
 **Recommended tools:**
-- [Loom](https://loom.com) — Free, shareable, great for portfolio
-- [OBS Studio](https://obsproject.com) — Full control, local recording
-- [Kap](https://getkap.co) — macOS GIF/MP4 export
+- [Loom](https://loom.com) - Free, shareable, great for portfolio
+- [OBS Studio](https://obsproject.com) - Full control, local recording
+- [Kap](https://getkap.co) - macOS GIF/MP4 export
 
 **For GIFs:** Use [Gifski](https://gif.ski) or export from Kap. Ideal size: 800×500px, under 5MB.
 
@@ -307,7 +296,7 @@ Since VoxTrail uses WebSockets + Redis + environment secrets, serverless platfor
 
 | Platform | Notes |
 |---|---|
-| **Google Cloud Run** | Ideal — native Gemini integration, WebSocket support, scales to zero |
+| **Google Cloud Run** | Ideal - native Gemini integration, WebSocket support, scales to zero |
 | **Railway** | Easy Redis + FastAPI deploy, generous free tier |
 | **Render** | Free tier supports persistent services + Redis add-on |
 
@@ -349,7 +338,7 @@ black .
 
 ## 📄 License
 
-MIT © 2025 — Built with ❤️ and a lot of voice commands.
+MIT © 2025 - Built with ❤️ and a lot of voice commands.
 
 ---
 
