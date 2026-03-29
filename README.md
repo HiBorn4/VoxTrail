@@ -12,7 +12,7 @@
 
 ### 🎬 Architecture
 
-![Architecture](architecture.svg)
+![Architecture](architecture.png)
 
 
 ### 🎬 Full Demo Video
